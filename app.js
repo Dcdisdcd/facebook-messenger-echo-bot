@@ -3,9 +3,9 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'Your_Facebook_Access_Token'
+const FACEBOOK_ACCESS_TOKEN = 'EAAB0YbcHARkBAFMKpvNZCEPZCJB3ogOXVIF9vI4dHV1vZBxdRbkO238Vh94ulylzmZB7n1gWH1jviBwtCIHXIXcEJ5GZAZC9qpbEgyYJITCxDSAPZBSkcmJNhBDCb1n2zOZAHuS8yN3XsVCDgIVZCF4h6kbCNCLMWZBwK3yNFWFSELpgZDZD'
 const PORT = process.env.PORT || 3000
-const VERIFY_TOKEN = 'Your_Verify_Token'
+const VERIFY_TOKEN = myVerifyToken
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
